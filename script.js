@@ -1,9 +1,12 @@
 const display = document.querySelector(".display");
+const button = document.querySelector("button");
 
-let dimensions = 256;
+let dimensions = 16;
 
-for (let i = 0; i < dimensions; i++){
-    const pixels = document.createElement("div");
-    pixels.className = "pix";
-    display.appendChild(pixels);
+for (let x = 0; x < dimensions; x++){
+    for (let y = 0; y < dimensions; y++) {
+        const pixel = document.createElement("div");
+        pixel.className = "pixels";
+        display.appendChild(pixel);
+    }
 }
