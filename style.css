@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 body {
     display: flex;
     flex-direction: column;
@@ -8,28 +5,25 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url("https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg"); 
-    
 }
 button {
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
     background-color: whitesmoke;
     color: black;
+    border: 2px solid black;
     border-radius: 4px;
     cursor: pointer;
 }
 .display {
     display: flex;
     flex-wrap: wrap;
+    aspect-ratio: 1/1;
     border: 3px solid black;
     width: 500px;
-    height: 500px;
+    
 }
 .pixels {
-    flex: 1;
-    aspect-ratio: 1;
-    height: 30px;
-    width: 30px;
-    border: .5px solid black;
-    background-color: whitesmoke;
+    outline: 1px solid black;
+    background: white;
 }
