@@ -7,7 +7,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite; 
+    background-image: url("https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg"); 
     
 }
 button {
@@ -27,7 +27,7 @@ button {
 }
 .pixels {
     flex: 1;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1;
     height: 30px;
     width: 30px;
     border: .5px solid black;
