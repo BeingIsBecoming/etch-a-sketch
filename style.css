@@ -7,11 +7,7 @@ body {
     background-image: url("https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg"); 
 }
 button {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
-    background-color: whitesmoke;
-    color: black;
-    border: 2px solid black;
+    background-color: white;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -19,11 +15,11 @@ button {
     display: flex;
     flex-wrap: wrap;
     aspect-ratio: 1/1;
-    border: 3px solid black;
     width: 500px;
-    
+    border: 3px solid black;
+    background: whitesmoke;
 }
 .pixels {
     outline: 1px solid black;
-    background: white;
+    background: whitesmoke;
 }
