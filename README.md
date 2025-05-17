@@ -1,4 +1,4 @@
-# etch-a-sketch
+# Etch-a-sketch
 Mouseover pixel canvas for creating art 
 
 ## Screenshot
